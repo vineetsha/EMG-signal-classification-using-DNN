@@ -1,0 +1,12 @@
+fTDD is a feature extraction algorithm for the classification of any kind of signals, although this was mainly developed for myoelectric signal feature extraction for prostheses control.
+Fused time domain descriptors (fTDD) are the features which combine the essential information between the current window(nth) and the previous window ((n − step)th), in which step = 1, 2,. . .,N, determines the separation between the current and previous windows.
+The advantage of this scheme is that if the two windows occur during the same class, it will enhance the correlation between the fused features, whereas for non-similar classes the correlation will be diminished.
+A set of six features were obtained per channel, implying a total of 42 (6 features × 7 channels) feature components representing each data sample which is formed by concatenation of features from all the channels present.
+
+
+Refrences
+[1] R. N. Khushaba, A. Al-Ani, A. Al-Timemy, A. Al-Jumaily, "A Fusion of Time-Domain Descriptors for Improved Myoelectric Hand Control", ISCIT2016 Conference, Greece, 2016.
+% pdf here: https://pdfs.semanticscholar.org/4730/98af39c66b0a4b541860a1f4617c036d8249.pdf
+
+[2] R. N. Khushaba, Maen Takruri, Jaime Valls Miro, and Sarath Kodagoda, "Towards limb position invariant myoelectric pattern recognition using time-dependent spectral features", 
+%     Neural Networks, vol. 55, pp. 42-58, 2014. 
