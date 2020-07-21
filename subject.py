@@ -74,7 +74,7 @@ class subject(labels):
     else:
       self.sex='Male'
 
-    self.directory='D:\emg dataset\S%x_%s'%(num,self.sex)   #directory of the subject
+    self.directory='S%x_%s'%(num,self.sex)   #directory of the subject
     self.positions=[subject.position(x,self.directory) for x in np.arange(1,6)]
     for positions in self.positions:
       positions.import_data()
